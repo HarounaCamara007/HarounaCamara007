@@ -1,0 +1,24 @@
+#buttonRetour1{ 
+transition-duration: 3s;
+position: relative;
+top: 65px;
+margin-left: 20px;
+text-decoration: none;
+padding: 10px 10px;
+width: 100px;
+background-color: rgb(255, 161, 11);
+position: relative;
+left: 535px;
+cursor: pointer;
+}
+
+p{
+    color: red;
+    font-size: large;
+    position: relative;
+    left: 380px;
+}
+
+.Erreur{
+    border: solid black 2px;
+}

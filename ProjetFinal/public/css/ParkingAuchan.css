@@ -1,0 +1,442 @@
+#Parking{
+    height: 400px;
+    width: 700px;
+    border: solid;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -15px;
+    background-image: url("../img/ParkingAuchan.png");
+    background-size: 700px;
+ }
+
+ .AddButton{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 16px;
+    left: 37px;
+    margin-top: 29px;
+ }
+
+ #formulaire{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   padding-top: 30px;
+   border: solid 4px rgb(197, 197, 197);
+   padding: 40px;  
+   top: 120px;
+   background-color: aliceblue;
+   text-align: center;
+  
+}
+
+#formulaireBack{
+   background-color: rgb(119, 148, 174);
+   height: 660px;
+   box-shadow: 8px 10px 15px 30px rgb(119, 148, 174), 8px 10px 15px 30px rgb(13, 99, 164), 8px 10px 15px 30px rgb(209, 53, 53);
+   position: relative;
+}
+
+
+input[type=text] {
+   border: solid 3px;
+   border-color:rgb(196, 195, 195) rgb(73, 140, 164) rgb(73, 140, 164)  rgb(196, 195, 195)  ;
+   box-shadow:  0px 10px 10px rgb(73, 140, 164);
+   padding: 6px;
+}
+
+input[type=date] {
+   border: solid 3px;
+   border-color: rgb(73, 140, 164);
+   padding: 6px;
+   border-radius: 10px;
+}
+
+input[type=time] {
+   border: solid 3px;
+   border-color: rgb(73, 140, 164);
+   padding: 6px;
+   border-radius: 10px;
+}
+
+input[type=tel] {
+   border: solid 3px;
+   border-color:rgb(196, 195, 195) rgb(73, 140, 164) rgb(73, 140, 164)  rgb(196, 195, 195)  ;
+   box-shadow:  0px 10px 10px rgb(73, 140, 164);
+   padding: 6px;
+}
+
+.formulaire2{
+   position: relative;
+   left: 0;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-top: 36px;
+   border: solid black 2px;
+   padding: 20px;
+   margin-top: 5px;
+   margin-bottom: 45px;
+   justify-content: center;
+}
+
+#date{
+   padding-right: 15px;
+   font-weight: bold;
+}
+
+#arrivee{
+   padding-left: 15px;
+   padding-right: 15px;
+   font-weight: bold;
+}
+
+#sortie{
+   padding-left: 15px;
+   padding-right: 15px;
+   font-weight: bold;
+}
+
+#btnForm{
+   margin-left: 15px;
+}
+
+ #BouttonVersFormulaire:hover{
+   cursor: pointer;
+}
+
+#buttonRetour:hover{
+   cursor: pointer;
+ }
+
+ 
+#BouttonVersFormulaire:hover{
+   cursor: pointer;
+}
+
+#BouttonVersFormulaire2:hover{
+   cursor: pointer;
+}
+
+#buttonRetour:hover{
+   cursor: pointer;
+ }
+
+#BouttonVersFormulaire{
+   transition-duration: 3s;
+   border: solid 2px black;
+   text-align: center;
+}
+
+#BouttonVersFormulaire2{
+   transition-duration: 3s;
+   position: relative;
+   top: 65px;
+   margin-left: 20px;
+   text-decoration: none;
+   padding: 10px 10px;
+   width: 100px;
+   background-color: rgb(73, 140, 164);
+}
+
+.condition{
+   text-align: center;
+   justify-content: center;
+   position: absolute;
+   top: 800px;
+   left: 258px;
+}
+
+#titreCondition{
+   font-size:45px;
+}
+
+#ConditionDeReservation{
+   margin-top: 40px;
+}
+
+a{
+   text-decoration: none;
+   color: black;
+}
+
+#A1{
+   position: relative;
+   top: 20px;
+   left: 20px;
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+}
+
+#A2{
+   position: relative;
+   top: 80px;
+   left: -10px;
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+}
+
+#A3{
+   position: relative;
+   top: 145px;
+   left: -45px;
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+}
+
+#A4{
+   position: relative;
+   top: 205px;
+   left: -75px;
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+}
+
+#A5{
+   position: relative;
+   top: 270px;
+   left: -105px;
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+}
+
+#A6{
+   position: relative;
+   top: 340px;
+   left: -140px;
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+}
+
+#B1{
+   position: relative;
+   top: 20px;
+   left: -90px;
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+}
+
+#B2{
+   position: relative;
+   top: 80px;
+   left: -125px;
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+}
+
+#B3{
+   position: relative;
+   top: 145px;
+   left: -155px;
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+}
+
+#B4{
+   position: relative;
+   top: 205px;
+   left: -190px;
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+}
+
+#B5{
+   position: relative;
+   top: 270px;
+   left: -220px;
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+}
+
+#B6{
+   position: relative;
+   top: 340px;
+   left: -250px;
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+}
+
+#C1{
+   position: relative;
+   top: 20px;
+   left: -50px;
+   width: 25px;
+   height: 25px; 
+   cursor: pointer; 
+}
+
+#C2{
+   position: relative;
+   top: 80px;
+   left: -85px;
+   width: 25px;
+   height: 25px;
+   cursor: pointer;  
+}
+
+#C3{
+   position: relative;
+   top: 145px;
+   left: -115px;
+   width: 25px;
+   height: 25px;
+   cursor: pointer;  
+}
+
+#C4{
+   position: relative;
+   top: 205px;
+   left: -150px;
+   width: 25px;
+   height: 25px;
+   cursor: pointer;  
+}
+
+#C5{
+   position: relative;
+   top: 275px;
+   left: -180px;
+   width: 25px;
+   height: 25px; 
+   cursor: pointer; 
+}
+
+#C6{
+   position: relative;
+   top: 342px;
+   left: -210px;
+   width: 25px;
+   height: 25px; 
+   cursor: pointer; 
+}
+
+#D1{
+   position: relative;
+   top: 20px;
+   left: -85px;
+   width: 25px;
+   height: 25px; 
+   cursor: pointer; 
+}
+
+#D2{
+   position: relative;
+   top: 80px;
+   left: -115px;
+   width: 25px;
+   height: 25px; 
+   cursor: pointer; 
+}
+
+#D3{
+   position: relative;
+   top: 145px;
+   left: -150px;
+   width: 25px;
+   height: 25px;  
+   cursor: pointer;
+}
+
+#D4{
+   position: relative;
+   top: 175px;
+   left: 490px;
+   width: 25px;
+   height: 25px;  
+   cursor: pointer;
+}
+
+#D5{
+   position: relative;
+   top: 240px;
+   left: 460px;
+   width: 25px;
+   height: 25px; 
+   cursor: pointer; 
+}
+
+#D6{
+   position: relative;
+   top: 310px;
+   left: 425px;
+   width: 25px;
+   height: 25px; 
+   cursor: pointer; 
+}
+
+#E1{
+   position: relative;
+   top: -10px;
+   left: 540px;
+   width: 25px;
+   height: 25px; 
+   cursor: pointer;
+}
+
+#E2{
+   position: relative;
+   top: 48px;
+   left: 510px;
+   width: 25px;
+   height: 25px; 
+   cursor: pointer;
+}
+
+#E3{
+   position: relative;
+   top: 115px;
+   left: 480px;
+   width: 25px;
+   height: 25px; 
+   cursor: pointer;
+}
+
+#E4{
+   position: relative;
+   top: 175px;
+   left: 445px;
+   width: 25px;
+   height: 25px; 
+   cursor: pointer;
+}
+
+#E5{
+   position: relative;
+   top: 240px;
+   left: 415px;
+   width: 25px;
+   height: 25px; 
+   cursor: pointer;
+}
+
+#E6{
+   position: relative;
+   top: 310px;
+   left: 380px;
+   width: 25px;
+   height: 25px; 
+   cursor: pointer;
+}
+
+#textParking{
+   margin-top: -5px;
+  position: absolute;
+  left: 520px;
+}

@@ -1,0 +1,191 @@
+#titre1{
+  
+    font-family : 'Kanit', sans-serif ;
+    color: rgb(73, 140, 164);
+    background-color: #f1f1f1; 
+    text-decoration:dashed;
+    font-weight: 600;
+    font-size: 5em;
+    position: absolute;
+    top: -5%;
+    margin-top: 45px;
+  }
+  
+  #logo{
+    height: 130px;
+    width: 170px;
+    position: relative;
+    right: 455px;
+    top: -37px;
+  }
+  
+   #text1{
+     position: relative;
+    margin-top: -90px;
+    font-size: 1.8em;
+  }
+  
+  #buttonConnexion{
+      background-color: rgb(73, 140, 164); 
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      font-size: 16px;
+      border: 2px solid black;
+      position: relative;
+      top: -160px;
+      left: 450px;
+  }
+  #buttonConnexion:hover{
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  
+  .header {
+    border: double 6px;
+    border-right: 20px;
+    border-left: 20px;
+      background-color: #f1f1f1;
+      height: 150px;
+      text-align: center;
+      font-size: 10px;
+    }
+  
+    #titreReservation{
+      font-size: 3em;
+      position: relative;
+      top: 20px;
+      text-align: center;
+      font-family: 'Kanit', sans-serif;
+      font-family: 'Libre Bodoni', serif;
+    }
+
+    /* .deconnection{
+        border: solid;
+        height: 400px;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 70px;
+    } */
+    
+    /* #deconnection{
+        margin-top: 100px;
+    }
+    
+    #MonEspace{
+        margin-top: 100px;
+    } */
+    
+    #buttonDeconnexion{
+        background-color: rgb(73, 140, 164); 
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 16px;
+        border: 2px solid black;
+        position: relative;
+        top: -60px;
+        left: 450px;
+    }
+
+    span{
+      
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      margin-top:40px;
+      border: solid 1px;
+      margin-right: 10px;
+     align-items: center;
+     
+      }
+
+      .tableau{
+          border:1px solid black;
+          padding: 5px;
+          margin-top: 10px;
+          width:360px;
+          margin-right: 10px;
+      }
+      
+
+      table{
+        width: 100%;
+        border: solid 2px black;
+        border-bottom: none;
+        color: red;
+        margin-top: 65px;
+        text-align: center;
+      }
+
+      .tableau{
+        border-bottom: solid 2px black;
+        width: 100px;
+        color: blue;
+        
+      }
+
+      .ButtonDelete{
+      
+          border: none;
+          color: white;
+          padding: 16px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          transition-duration: 0.7s ;
+          cursor: pointer;
+          border-radius: 10px;
+        
+      }
+
+      .ButtonDelete{
+        background-color: white; 
+        color: black; 
+        border: 2px solid rgb(185, 181, 181);
+      }
+      
+      .ButtonDelete:hover {
+        background-color: white;
+        color: red;
+        border-color: red;
+      }
+
+      td{
+        border: solid 2px black;
+        border-top: none;
+        border-left: none ;
+        border-right: none;
+        padding: 5px;
+        width: 400px;
+      }
+
+      #delete{
+        border-bottom: solid;
+        margin-top: 10px;
+        border-color: black;
+
+      }
+
+     #LigneFormulaire:hover{
+       color: white;
+        background-color: grey;
+        height: 20px;
+        transition: 0,7s ease;
+       
+      }
+
+
+
+     
+
+    
+
+
+
+
+  

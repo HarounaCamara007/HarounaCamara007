@@ -1,0 +1,293 @@
+/* #titre1{
+  font-family : 'Kanit', sans-serif ;
+  color: rgb(73, 140, 164);
+  background-color: #f1f1f1; 
+  text-decoration:dashed;
+  font-weight: 600;
+  font-size: 5em;
+  position: absolute;
+  top: -5%;
+  margin-top: 45px;
+} */
+
+#logo{
+  height: 140px;
+  width: 170px;
+  position: relative;
+  right: 465px;
+  top: -68px;
+  width: 270px;
+  position: relative;
+  left: -410px; 
+}
+
+ #text1{
+   position: relative;
+  margin-top: -110px;
+  font-size: 1.8em;
+}
+
+#buttonConnexion{
+  background-color: rgb(73, 140, 164);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border: 2px solid black;
+  position: relative;
+  text-decoration: none;
+  top: -160px;
+  left: 400px;
+}
+
+#buttonConnexion:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.header {
+  border: double 6px;
+  border-right: 20px;
+  border-left: 20px;
+    background-color: #f1f1f1;
+    height: 150px;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  #titreReservation{
+    font-size: 3em;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Bodoni', serif;
+  }
+
+  .choix{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+  }
+  
+  #auchan{
+    border-radius: 4%;
+    color: rgb(73, 140, 164);
+    background-color: #f1f1f1;
+    margin-right: 25px;
+    margin-top: 30px;
+    height: 280px;
+    width: 400px;
+    border: solid black;
+    transition: all 0.4s ease;
+    animation-name: choix;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction:alternate;
+    animation-delay: 1s;
+  }
+
+  #auchan:hover{
+    box-shadow: 0px 20px 20px rgb(73, 140, 164);
+    margin-top: 30px;
+    height: 280px;
+    width: 420px;
+    border: solid rgb(73, 140, 164);
+    color: black;
+    animation: none;
+    font-size: 20px;
+  }
+
+
+#ikea{
+  border-radius: 4%;
+  color: rgb(73, 140, 164);
+  background-color: #f1f1f1;
+  margin-right: 25px;
+  margin-top: 30px;
+  height: 280px;
+  width: 390px;
+  border: solid black;
+  background-color: none;
+  transition: all 0.4s ease;
+  animation-name: choix;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+  animation-delay: 2.3s;
+}
+
+#ikea:hover{
+  box-shadow: 0px 20px 20px rgb(73, 140, 164);
+  margin-top: 30px;
+  height: 280px;
+  width: 420px;
+  border: solid rgb(73, 140, 164);
+  color: black;
+  animation: none;
+  font-size: 20px;
+}
+
+#mcdo{
+  border-radius: 4%;
+  color: rgb(73, 140, 164);
+  background-color: #f1f1f1;
+  text-align: center;
+  margin-top: 30px;
+  height: 280px;
+  width: 390px;
+  border: solid black;
+  background-color: whitesmoke;
+  transition: all 0.4s ease;
+  animation-name: choix;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;  
+  animation-direction: alternate;
+  animation-delay: 3.4s;
+}
+
+#mcdo:hover{
+  box-shadow: 0px 20px 20px rgb(73, 140, 164);
+  margin-top: 30px;
+  height: 280px;
+  width: 400px;
+  border: solid rgb(73, 140, 164);
+  color: black;
+  animation: none;
+  font-size: 20px;
+}
+
+#titre{
+    text-align: center;
+}
+
+#TextPlaceDispo{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: black
+  
+}
+
+@keyframes choix {
+  0%   {box-shadow: 0px 20px 20px white;}
+  25%  {box-shadow: 0px 20px 20px rgb(73, 140, 164);}
+  50%  {box-shadow: 0px 20px 20px white;}
+  75%  {box-shadow: 0px 20px 20px white;}
+  100% {box-shadow: 0px 20px 20px white}
+}
+
+#video{
+  position: relative;
+  top: -110px;
+  left: 70px;
+  width: 1100px;
+  border: solid black;
+  border-radius: 20px;
+   box-shadow: 8px 10px 9px 10px rgb(160, 159, 159), 8px 10px 9px 10px rgb(120, 119, 119);
+}
+
+#testtest{
+  position: relative;
+  top: 50px;
+  font-size: 15px;
+  color: red;
+}
+
+@media (max-width: 700px) {
+  .choix{
+      position: relative;
+      right: 4px;
+  }
+   #logo{
+      height: 100px;
+      width: 100px;
+      position: relative;
+      right:  200px;
+      top: -20px;
+      width: 183px;
+      margin-left: 380px;
+  }
+
+  #video{
+    width: 580px;
+    position: relative;
+    left: 10px;
+    height: 250px;
+    width: 600px;}
+
+    #auchan{
+    box-shadow: 0px 20px 20px rgb(73, 140, 164);
+    margin-top: 30px;
+    height: 200px;
+    width: 190px;
+  }
+
+  #ikea{
+    box-shadow: 0px 20px 20px rgb(73, 140, 164);
+    margin-top: 30px;
+    height: 200px;
+    width: 190px;
+  }
+
+  #mcdo{
+    box-shadow: 0px 20px 20px rgb(73, 140, 164);
+    margin-top: 30px;
+    height: 200px;
+    width: 190px;
+  }
+
+  #mcdo:hover{
+    box-shadow: 0px 20px 20px rgb(73, 140, 164);
+    margin-top: 30px;
+    height: 280px;
+    width: 200px;
+  }
+
+  #auchan:hover{
+    box-shadow: 0px 20px 20px rgb(73, 140, 164);
+    margin-top: 30px;
+    height: 280px;
+    width: 200px;
+  }
+
+  #ikea:hover{
+    box-shadow: 0px 20px 20px rgb(73, 140, 164);
+    margin-top: 30px;
+    height: 280px;
+    width: 200px;
+  }
+
+  .header{
+    text-align: center;
+    font-size: 35%;
+}
+
+
+    #titreReservation{
+      z-index: 5;
+      font-size: 240%;
+      position: relative;
+      top: 35px;
+      text-align: center;
+      font-family: 'Kanit', sans-serif;
+      font-family: 'Libre Bodoni', serif;}
+
+      #buttonConnexion{
+        background-color: rgb(73, 140, 164);
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 16px;
+        border: 2px solid black;
+        position: relative;
+        text-decoration: none;
+        top: -100px;
+        left: 235px;
+      }
+}
